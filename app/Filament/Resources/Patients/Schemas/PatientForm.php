@@ -37,8 +37,7 @@ class PatientForm
                             ->required()
                             ->native(false)
                             ->displayFormat('d/m/Y')
-                            ->default(now())
-                            ->maxDate(now()),
+                            ->default(now()),
                         TextInput::make('arrival_supervisor')
                             ->label('مشرف الوصول')
                             ->required()

@@ -39,8 +39,7 @@ class IncomeForm
                             ->required()
                             ->native(false)
                             ->displayFormat('d/m/Y')
-                            ->default(now())
-                            ->maxDate(now()),
+                            ->default(now()),
                         Select::make('patient_id')
                             ->label('المريض (اختياري)')
                             ->helperText('اختر المريض لو الدخل من مريض معين.')
